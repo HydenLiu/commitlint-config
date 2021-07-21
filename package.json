@@ -13,6 +13,14 @@
     "commit"
   ],
   "author": "sunupDong",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunupdong/commitlint-learning.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sunupdong/commitlint-learning/issues"
+  },
+  "homepage": "https://github.com/sunupdong/commitlint-learning#readme",
   "license": "ISC",
   "devDependencies": {
     "@commitlint/cli": "^12.1.4",
