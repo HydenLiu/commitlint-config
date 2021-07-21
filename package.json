@@ -1,0 +1,35 @@
+{
+  "name": "commitlint-learning",
+  "version": "1.0.0",
+  "description": "git commit规范提交",
+  "main": "index.js",
+  "scripts": {
+    "version": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md",
+    "commit": "git add . && git-cz"
+  },
+  "keywords": [
+    "cz",
+    "git",
+    "commit"
+  ],
+  "author": "sunupDong",
+  "license": "ISC",
+  "devDependencies": {
+    "@commitlint/cli": "^12.1.4",
+    "@commitlint/config-conventional": "^12.1.4",
+    "conventional-changelog": "^3.1.4",
+    "conventional-changelog-cli": "^2.0.17",
+    "cz-customizable": "^6.3.0",
+    "husky": "^7.0.1"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-customizable"
+    }
+  }
+}
