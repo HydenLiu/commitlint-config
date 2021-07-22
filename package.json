@@ -1,6 +1,6 @@
 {
   "name": "commitlint-learning",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "git commit规范提交",
   "main": "index.js",
   "scripts": {
@@ -27,6 +27,7 @@
     "@commitlint/config-conventional": "^12.1.4",
     "conventional-changelog": "^3.1.4",
     "conventional-changelog-cli": "^2.0.17",
+    "commitizen": "^4.2.4",
     "cz-customizable": "^6.3.0",
     "husky": "^7.0.1"
   },
